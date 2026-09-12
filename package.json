@@ -1,0 +1,11 @@
+{
+  "name": "fintech-expense-classification-tool",
+  "version": "1.0.0",
+  "description": "Fintech Expense Classification & Reporting Tool",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test": "npm test --prefix server"
+  }
+}
